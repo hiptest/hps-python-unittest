@@ -13,4 +13,4 @@ script:
  - bin/test --with-xunit
 
 after_script:
-  - hiptest-publisher -c python-unittest.conf --token=$SECRET_TOKEN --push="nosetests.xml" --test-run-id=116754
+  - hiptest-publisher -c python-unittest.conf --push="nosetests.xml" --test-run-id=116754
